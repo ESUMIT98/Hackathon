@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 import com.policybazaar.secondary.ChromeDriverSetup;
 import com.policybazaar.secondary.EdgeDriverSetup;
+import com.policybazaar.secondary.GeekoDriverSetup;
+
 
 public class Setup {
 
@@ -19,7 +21,7 @@ public class Setup {
 
 		do {
 
-			System.out.println("Choose a browser for automation:\n1. Google Chrome.\n2. Microsoft Edge.\n\nEnter your choice:\n");
+			System.out.println("Choose a browser for automation:\n1. Google Chrome.\n2. Microsoft Edge.\n3. Firefox \nEnter your choice:\n");
 			ch=sc.nextInt();
 
 			if(ch==1){
@@ -37,6 +39,14 @@ public class Setup {
 				
 				flag=0;
 			}
+			else if(ch==3){
+
+				GeekoDriverSetup live3=new GeekoDriverSetup();
+				driver=live3.getWebDriver();
+				
+				flag=0;
+			}
+
 
 			else{
 

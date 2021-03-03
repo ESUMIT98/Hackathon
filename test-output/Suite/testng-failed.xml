@@ -5,7 +5,9 @@
     <classes>
       <class name="com.policybazaar.primary.Travel_Insurance">
         <methods>
+          <include name="stop"/>
           <include name="travelInsurance"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- com.policybazaar.primary.Travel_Insurance -->
     </classes>

@@ -87,8 +87,9 @@ public class Travel_Insurance {
 		driver.findElement(By.id("startdate")).click();
 
 		js.executeScript("window.scrollBy(0,150)");
-		WebElement el=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//body[1]/div[9]/div[2]/div[1]/table[1]/thead[1]/tr[1]/th[3]/span[1]")));
-		el.click();
+		//WebElement el=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//body[1]/div[9]/div[2]/div[1]/table[1]/thead[1]/tr[1]/th[3]/span[1]")));
+		//el.click();
+		Thread.sleep(2000);
 		WebElement ele= wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(prop.getProperty("cal1"))));
 		ele.click();
 

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="139190" started-at="2021-02-26T12:10:17 IST" finished-at="2021-02-26T12:12:36 IST">
+  <suite name="Suite" duration-ms="119978" started-at="2021-03-03T15:41:08 IST" finished-at="2021-03-03T15:43:08 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="139190" started-at="2021-02-26T12:10:17 IST" finished-at="2021-02-26T12:12:36 IST">
+    <test name="Test" duration-ms="119978" started-at="2021-03-03T15:41:08 IST" finished-at="2021-03-03T15:43:08 IST">
       <class name="com.policybazaar.primary.Health_Insurance">
-        <test-method status="PASS" signature="healthInsurance()[pri:3, instance:com.policybazaar.primary.Health_Insurance@5d20e46]" name="healthInsurance" duration-ms="74914" started-at="2021-02-26T12:10:44 IST" finished-at="2021-02-26T12:11:59 IST">
+        <test-method status="PASS" signature="healthInsurance()[pri:3, instance:com.policybazaar.primary.Health_Insurance@5d20e46]" name="healthInsurance" duration-ms="32123" started-at="2021-03-03T15:42:02 IST" finished-at="2021-03-03T15:42:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- healthInsurance -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.policybazaar.primary.Health_Insurance@5d20e46]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-02-26T12:11:59 IST" finished-at="2021-02-26T12:11:59 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.policybazaar.primary.Health_Insurance@5d20e46]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-03T15:42:34 IST" finished-at="2021-03-03T15:42:34 IST">
           <params>
             <param index="0">
               <value>
@@ -24,11 +24,11 @@
         </test-method> <!-- afterMethod -->
       </class> <!-- com.policybazaar.primary.Health_Insurance -->
       <class name="com.policybazaar.primary.Travel_Insurance">
-        <test-method status="PASS" signature="travelInsurance()[pri:1, instance:com.policybazaar.primary.Travel_Insurance@709ba3fb]" name="travelInsurance" duration-ms="36594" started-at="2021-02-26T12:11:59 IST" finished-at="2021-02-26T12:12:36 IST">
+        <test-method status="PASS" signature="travelInsurance()[pri:1, instance:com.policybazaar.primary.Travel_Insurance@709ba3fb]" name="travelInsurance" duration-ms="34479" started-at="2021-03-03T15:42:34 IST" finished-at="2021-03-03T15:43:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsurance -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.policybazaar.primary.Travel_Insurance@709ba3fb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-02-26T12:12:36 IST" finished-at="2021-02-26T12:12:36 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.policybazaar.primary.Travel_Insurance@709ba3fb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-03T15:43:08 IST" finished-at="2021-03-03T15:43:08 IST">
           <params>
             <param index="0">
               <value>
@@ -39,17 +39,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="stop()[pri:0, instance:com.policybazaar.primary.Travel_Insurance@709ba3fb]" name="stop" is-config="true" duration-ms="449" started-at="2021-02-26T12:12:36 IST" finished-at="2021-02-26T12:12:36 IST">
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.policybazaar.primary.Travel_Insurance@709ba3fb]" name="stop" is-config="true" duration-ms="796" started-at="2021-03-03T15:43:08 IST" finished-at="2021-03-03T15:43:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->
       </class> <!-- com.policybazaar.primary.Travel_Insurance -->
       <class name="com.policybazaar.primary.Car_Insurance">
-        <test-method status="PASS" signature="travelInsurance()[pri:2, instance:com.policybazaar.primary.Car_Insurance@7364985f]" name="travelInsurance" duration-ms="27600" started-at="2021-02-26T12:10:17 IST" finished-at="2021-02-26T12:10:44 IST">
+        <test-method status="PASS" signature="travelInsurance()[pri:2, instance:com.policybazaar.primary.Car_Insurance@7364985f]" name="travelInsurance" duration-ms="53271" started-at="2021-03-03T15:41:08 IST" finished-at="2021-03-03T15:42:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- travelInsurance -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.policybazaar.primary.Car_Insurance@7364985f]" name="afterMethod" is-config="true" duration-ms="14" started-at="2021-02-26T12:10:44 IST" finished-at="2021-02-26T12:10:44 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.policybazaar.primary.Car_Insurance@7364985f]" name="afterMethod" is-config="true" duration-ms="21" started-at="2021-03-03T15:42:02 IST" finished-at="2021-03-03T15:42:02 IST">
           <params>
             <param index="0">
               <value>
